@@ -23,7 +23,7 @@ python setup.py install
 ### Requirements
 - Python 3.6+
 
-## Quick Start
+## Quick Start:
 
 To use this library, you must have an API key and specify it as a string when creating the `cohere.Client` object. API keys can be created through the [platform](https://os.cohere.ai). This is a basic example of the creating the client and using the `generate` endpoint.
 
@@ -43,7 +43,7 @@ prediction = co.generate(
 print('prediction: {}'.format(prediction.generations[0].text))
 ```
 
-## Versioning
+## Versioning:
 To use the SDK with a specific API version, you can specify it when creating the Cohere Client:
 
 ```python
